@@ -1,0 +1,343 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    position: sticky;
+    top: 0px;
+    height: 214px;
+    z-index: 1;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+    background-color: #fff;
+}
+.logo{
+    width: 32px;
+    height: 24px;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    top: 0px;
+}
+.centerbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 348px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    padding: 0px 24px;
+    /* flex-wrap: wrap;
+    position: absolute;
+    top: 8px;
+    left: 700px; */
+}
+.anywhere h3{
+    font-size: 14px;
+}
+.anyweek h3{
+    font-size: 14px;
+}
+.addguest h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.search{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ff385c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search img{
+    border: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.rightbar{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;    
+    flex-wrap: wrap;
+}
+.right1 h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.right3{
+    height: 34px;
+    width: 70px;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+}
+.lines{
+    width: 24px;
+    height: 24px;
+}
+.profile{
+    width: 24px;
+    height: 24px;
+}
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+.navbar2{
+    display: flex;
+    gap: 50px;
+    padding: 0px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    box-sizing: border-box;
+    
+    background-color: #fff;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+}
+.option img{
+    width: 24px;
+    height: auto;
+}
+.option a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+.option a:active, hover{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #000000;
+}
+.rightside{
+    width: 24px;
+}
+.rightside img{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 60px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.filter1{
+    width: 24px;
+    height: auto; 
+}
+.filter1 img{
+    width: 100%;
+    height: auto;
+}
+.filter2 h4{
+    font-size: 14px;
+    color: #000000;
+}
+.header2{
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    margin: 8px auto;
+    width: 600px;
+    display: flex;
+    justify-content: start;
+    padding: 10px 20x;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.head1{
+    margin: 0px 20px;
+}
+.head2{
+    margin: 0px 20px;
+}
+.head2 h4{
+    font-weight: 400;
+}
+.head3{
+    margin: 0px 20px;
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.head3 img{
+    width: 100%;
+}
+.container{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+.card{
+    width: 280px;
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    position: relative;
+    background-color: #fff;
+}
+.card_image{
+    width: 280px;
+    border-radius: 14px;
+    position: relative;
+}
+.card_image img{
+    width: 100%;
+    border-radius: 14px;
+    height: 266px;
+}
+.favourite{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 25px;
+}
+.favourite img{
+    width: 100%;
+}
+.card_image img{
+    width: 100%;
+    border-radius: 14px;
+}
+.card_content{
+    display: flex;
+    align-items: start;
+    justify-content: space-between; 
+    background-color: #fff;
+}
+.card_heading1{
+    font-size: 18px;
+    line-height: 5px;
+    font-weight: 600;
+}
+.card_heading2{
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: lighter;
+}
+.card_heading3{
+    font-size: 16px;
+    line-height: 5px;
+    display: inline-block;
+}
+.card_heading4{
+    font-size: 16px;
+    line-height: 5  px;
+    font-weight: lighter;
+    display: inline-block;
+}
+.rating{
+    position: absolute;
+    right: 1px;
+    bottom: 102px;
+    width: 50px;
+    padding: 1px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.rating img{
+    width: 12px;
+    display: inline-flex;
+
+}
+.rating h5{
+    display: inline-flex;
+    font-size: 16px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 80px;
+}
+.left_footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.right_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 100px;
+}
+.right_footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.toparrow{
+    width: 12px;
+}
+.toparrow img{
+    width: 100%;
+}
+
+
+
+
+
